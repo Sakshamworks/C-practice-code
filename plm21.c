@@ -1,27 +1,21 @@
-#include<stdio.h>
-int main(){
-    int a;
-    int c,b;
-    printf("enter a number : ");
-    scanf("%d",&a);
-   
-    switch(a){
-        case 1: 
-        printf("enter 1st num.. :");
-        scanf("%d",&c);
-        printf("enter 2nd num... :");
-        scanf("%d",&b);
-
-        if(c>=60&&c<=90)
-        {printf("number is good \n:");
-        
-        
-        
-        printf("the sum of both num... is : %d\n",c+b);
-        printf("multiplication of both numbr is : %d\n",c*b);}
-
-        else {
-            printf("doobara koshish karo : ");
-        }}
-
-    return 0; }
+#include <stdio.h>
+int main()
+{
+    int a, b, c;
+    printf("enter the english no.. : ");
+    scanf("%d", &a);
+    printf("enter the maths number : ");
+    scanf("%d", &b);
+    printf("enter the physics no... : ");
+    scanf("%d", &c);
+    if (a >= 33 && a <= 100 && b >= 33 && b <= 100 && c >= 33 && c <= 100)
+    {
+        printf("the persent you obtain : %.2f\n",((a + b + c)/300.0)*100);
+        printf("congratulation , you are pass ");
+    }
+    else
+    {
+        printf("bad luck try next time :( ");
+    }
+    return 0;
+}
