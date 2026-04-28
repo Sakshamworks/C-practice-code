@@ -1,18 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    char a;
-    printf("enter the upper case charecter : ");
-    scanf("%c", &a);
-    if (a >= 'A' && a <= 'Z')
-    {
-        printf("it is upper case charecter ");
-    }
-    else if (a >= 'a' && a <= 'z')
-        printf("it is lower case character");
-    else
-    {
-        printf("it is not a upper case charecter");
-    }
-    return 0;
+ float a;
+ printf("enter the number : ");
+ scanf("%f",&a);
+ if (a>=1&&a==(int)a){
+    printf("enter number is natural number");
+ }
+ else{
+    printf("enter number is not a natural number");
+ }
+ return 0;
+
 }
