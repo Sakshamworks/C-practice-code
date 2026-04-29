@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main(){
-    for(int a=0;a<=10;a++){
-        printf("%d\n",a);
+    for(float i=2.0;i<=10;i++){
+        printf("%f\n",i);
     }
-    return 0;
+   for(char ch='a';ch<='z';ch++){
+    printf("%c\n",ch);
+   }
 }
